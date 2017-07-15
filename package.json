@@ -1,0 +1,33 @@
+{
+  "name": "legal-api",
+  "version": "0.0.1",
+  "description": "api for legal stuff",
+  "main": "/dist/main.js",
+  "scripts": {
+    "test": "gulp test",
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pierre-RA/legal-api.git"
+  },
+  "author": "Pierre Repetto-Andipatin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pierre-RA/legal-api/issues"
+  },
+  "homepage": "https://github.com/Pierre-RA/legal-api#readme",
+  "devDependencies": {
+    "@types/dotenv": "^4.0.0",
+    "@types/express": "^4.0.36",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-typescript": "^3.2.0",
+    "typescript": "^2.4.1"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "pm2": "^2.5.0"
+  }
+}

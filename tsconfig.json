@@ -1,0 +1,22 @@
+{
+  "files": [
+    "server/**/*.ts"
+  ],
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "target": "es6",
+    "outDir": "dist",
+    "rootDir": "server",
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "node_modules/*",
+        "server/types/*"
+      ]
+    },
+    "moduleResolution": "node",
+    "removeComments": true
+  }
+}
