@@ -27,3 +27,5 @@ gulp.task('default', ['build'], function() {
     });
   });
 });
+
+gulp.task('heroku:production', ['default']);
