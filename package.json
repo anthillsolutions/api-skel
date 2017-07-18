@@ -45,6 +45,9 @@
       "!**/server/types/**"
     ]
   },
+  "engines": {
+    "node": "8.1.4"
+  },
   "devDependencies": {
     "@types/body-parser": "^1.16.4",
     "@types/chai": "^4.0.1",
