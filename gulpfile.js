@@ -17,7 +17,7 @@ gulp.task('build', function() {
     .pipe(gulp.dest(tsProject.options.outDir));
 });
 
-gulp.task('default', ['build'], function() {
+gulp.task('serve', function() {
   return pm2.connect(true, function() {
     pm2.start({
       name: 'server',
@@ -28,4 +28,5 @@ gulp.task('default', ['build'], function() {
   });
 });
 
-gulp.task('heroku:production', ['default']);
+gulp.task('default', ['serve'], function() {
+});
