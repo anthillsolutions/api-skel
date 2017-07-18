@@ -21,7 +21,7 @@ gulp.task('default', ['build'], function() {
   return pm2.connect(true, function() {
     pm2.start({
       name: 'server',
-      script: 'dist/server.js',
+      script: tsProject.options.outDir + '/server.js',
     }, function() {
       pm2.streamLogs('all', 0);
     });

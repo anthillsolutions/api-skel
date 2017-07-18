@@ -10,13 +10,14 @@
     "rootDir": "server",
     "sourceMap": true,
     "baseUrl": ".",
+    "moduleResolution": "node",
+    "removeComments": true,
+    "typeRoots": [ "node_modules/@types" ],
     "paths": {
       "*": [
-        "node_modules/*",
+        "node_modules/@types/*",
         "server/types/*"
       ]
-    },
-    "moduleResolution": "node",
-    "removeComments": true
+    }
   }
 }

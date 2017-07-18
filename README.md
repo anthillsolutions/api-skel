@@ -1,16 +1,28 @@
 # API skeleton
 
-## Install
+## How to use API skeleton
+
+### Install
 
 ```
 $ npm install
 ```
 
-## Run
+### Tests
+
+```
+$ npm test
+```
+
+### Run
 
 ```
 $ npm start
 ```
+
+## Description
+
+...
 
 ## License
 
