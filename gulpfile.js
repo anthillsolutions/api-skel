@@ -1,8 +1,10 @@
 var gulp = require('gulp');
-var clean = require('gulp-clean');
 var pm2 = require('pm2');
 var ts = require('gulp-typescript');
 var tsProject = ts.createProject('tsconfig.json');
+if (process.env.NODE_ENV !== 'production') {
+  var clean = require('gulp-clean');
+}
 
 gulp.task('clean', function() {
   return gulp.src('dist')
