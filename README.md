@@ -16,11 +16,21 @@ Webpack + Typescript + Express + Jest + Chai
 $ yarn
 ```
 
+A post install script will transpile Typescript code into javascript. Transpiled code can be found at `./dist/server.js`.
+
 ### Tests
 
 ```
 $ yarn test
 ```
+
+### Send coverage to coveralls
+
+```
+$ COVERALLS_REPO_TOKEN=XXXX yarn test-ci
+```
+
+You need to add your coveralls repository token, otherwise it will fail.
 
 ### Run
 
@@ -28,9 +38,20 @@ $ yarn test
 $ yarn start
 ```
 
+This will launch the server as is.
+
+```
+$ yarn pm2
+```
+
+This will launch the server with pm2 instead.
+
 ## Description
 
-...
+A small Express application written in [Typescript](https://www.typescriptlang.org/) and set with [Webpack](https://webpack.github.io/). Tests are done with [Jest](https://facebook.github.io/jest/) + [Mocha](https://mochajs.org/)/[Chai](http://chaijs.com/).
+
+You can find the demo app running at: 
+https://api-skel.herokuapp.com/.
 
 ## Authors
 
