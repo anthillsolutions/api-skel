@@ -31,6 +31,10 @@ $ yarn start
 
 ...
 
+## Authors
+
+- Pierre Repetto-Andipatin <mailto:pierre@anthillsolutions.ch>
+
 ## License
 
 MIT
