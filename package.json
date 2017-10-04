@@ -5,9 +5,10 @@
   "main": "./dist/server.js",
   "scripts": {
     "build": "webpack --config webpack.config.js",
+    "pm2": "pm2 start ./dist/server.js",
     "postinstall": "npm run build",
     "test": "jest --forceExit",
-    "start": "pm2 start ./dist/server.js"
+    "start": "node ./dist/server.js"
   },
   "repository": {
     "type": "git",
