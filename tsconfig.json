@@ -19,7 +19,7 @@
     "paths": {
       "*": [
         "node_modules/@types/*",
-        "server/types/*"
+        "./server/types/*"
       ]
     }
   }

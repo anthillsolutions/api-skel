@@ -32,31 +32,17 @@
     "@types/express-serve-static-core" "*"
     "@types/serve-static" "*"
 
-"@types/filesystem@0.0.28":
-  version "0.0.28"
-  resolved "https://registry.yarnpkg.com/@types/filesystem/-/filesystem-0.0.28.tgz#3fd7735830f2c7413cb5ac45780bc45904697b0e"
-  dependencies:
-    "@types/filewriter" "*"
-
-"@types/filewriter@*":
-  version "0.0.28"
-  resolved "https://registry.yarnpkg.com/@types/filewriter/-/filewriter-0.0.28.tgz#c054e8af4d9dd75db4e63abc76f885168714d4b3"
-
 "@types/jest@^20.0.4":
   version "20.0.8"
   resolved "https://registry.yarnpkg.com/@types/jest/-/jest-20.0.8.tgz#7f8c97f73d20d3bf5448fbe33661a342002b5954"
-
-"@types/jszip@0.0.33":
-  version "0.0.33"
-  resolved "https://registry.yarnpkg.com/@types/jszip/-/jszip-0.0.33.tgz#01e5f8a244aabe5f05b22f1325c4b575a6714e05"
 
 "@types/mime@*":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@types/mime/-/mime-2.0.0.tgz#5a7306e367c539b9f6543499de8dd519fac37a8b"
 
 "@types/node@*", "@types/node@^8.0.13":
-  version "8.0.31"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.0.31.tgz#d9af61093cf4bfc9f066ca34de0175012cfb0ce9"
+  version "8.0.32"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.0.32.tgz#869a716538b6eec65ab3893f183d557be3cda206"
 
 "@types/serve-static@*":
   version "1.7.32"
@@ -66,8 +52,8 @@
     "@types/mime" "*"
 
 "@types/superagent@*":
-  version "3.5.5"
-  resolved "https://registry.yarnpkg.com/@types/superagent/-/superagent-3.5.5.tgz#f4378cec9105dce5f74979c8e4a1ff3fe18a5aca"
+  version "3.5.6"
+  resolved "https://registry.yarnpkg.com/@types/superagent/-/superagent-3.5.6.tgz#9cf2632c075ba9e601f6a610aadc23992d02394c"
   dependencies:
     "@types/node" "*"
 
@@ -3236,8 +3222,8 @@ tslint@^5.5.0:
     tsutils "^2.8.1"
 
 tsutils@^2.8.1:
-  version "2.11.1"
-  resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-2.11.1.tgz#103dff3fa508aff5649c16dc4e6dd45dc41dbc62"
+  version "2.11.2"
+  resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-2.11.2.tgz#6013601e36fa14ff958413e541d427fb8c6ac341"
   dependencies:
     tslib "^1.7.1"
 

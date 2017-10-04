@@ -4,8 +4,9 @@
   "description": "skeleton API in Typescript",
   "main": "./dist/server.js",
   "scripts": {
-    "test": "jest --forceExit",
     "build": "webpack --config webpack.config.js",
+    "postinstall": "npm run build",
+    "test": "jest --forceExit",
     "start": "pm2 start ./dist/server.js"
   },
   "repository": {
@@ -26,7 +27,12 @@
     },
     "moduleFileExtensions": [
       "ts",
-      "js"
+      "js",
+      "json"
+    ],
+    "moduleDirectories": [
+      "node_modules",
+      "server"
     ],
     "transform": {
       "^.+\\.(ts|tsx)$": "./node_modules/ts-jest/preprocessor.js"
@@ -42,8 +48,7 @@
       "!**/node_modules/**",
       "!**/vendor/**",
       "!**/coverage/**",
-      "!**/gulpfile.js",
-      "!**/server/types/**"
+      "!**/webpack.config.js"
     ]
   },
   "engines": {
@@ -54,9 +59,7 @@
     "@types/chai": "^4.0.1",
     "@types/dotenv": "^4.0.0",
     "@types/express": "^4.0.36",
-    "@types/filesystem": "0.0.28",
     "@types/jest": "^20.0.4",
-    "@types/jszip": "0.0.33",
     "@types/node": "^8.0.13",
     "@types/supertest": "^2.0.2",
     "chai": "^4.1.0",
