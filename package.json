@@ -70,7 +70,8 @@
     "ts-loader": "^2.3.7",
     "ts-node": "^3.2.0",
     "tslint": "^5.5.0",
-    "typescript": "^2.4.1"
+    "typescript": "^2.4.1",
+    "webpack": "^3.6.0"
   },
   "dependencies": {
     "body-parser": "^1.17.2",
